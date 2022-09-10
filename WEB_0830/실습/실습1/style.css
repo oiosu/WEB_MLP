@@ -1,0 +1,17 @@
+/* 아래에 CSS를 작성해주세요. */
+* {
+  box-sizing: border-box;
+}
+.item-container {
+  display: flex;
+  height: 500px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 1rem;
+}
