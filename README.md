@@ -1,3 +1,4 @@
+
 ### 📌 HTML CSS JS 
 
 * **웹 사이트의 구성 요쇼**
@@ -64,6 +65,15 @@
 
 ---
 
+### [💡 HTML (Hyper Text Markup Language)](https://github.com/oiosu/HAPPY-WEB_MLP/blob/master/WEB_0829/WEB_0829.md)
+
+    * Hyper Text : 참조(하이퍼링크)를 통해 사용자가 한 문서에서 다른 문서로 즉시 접근 할 수 있는 텍스트 
+
+    * Markup Language : 태그 등을 이용하여 문서나 데이터의 구조를 명시하는 언어
+
+![image](https://user-images.githubusercontent.com/99783474/189500022-a22360a5-5c32-4a16-be06-8615dc3e196c.png)
+
+---
 
 
 
