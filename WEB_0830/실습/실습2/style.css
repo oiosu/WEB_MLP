@@ -1,0 +1,34 @@
+/* 아래에 CSS를 작성해주세요. */
+.section {
+    line-height: 30%;
+}
+.chair {
+    border-radius: 1%;
+    width: 300px;
+}
+.title {
+    font-size: small;
+    color: gray;
+    font-weight: bold;
+}
+.products {
+    font-size: 15px;
+    font-weight: 900;
+}
+.rate {
+    font-weight: bolder;
+    color: aqua;
+}
+.price {
+    font-weight: bolder;
+}
+.avg {
+    font-size: small;
+    font-weight: bolder;
+    color: darkgray;
+}
+.avg-text {
+    font-size: small;
+    color: #000;
+}
+
