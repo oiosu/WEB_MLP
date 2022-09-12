@@ -141,7 +141,7 @@
 
 #### ◼ 속성에 따른 수평 정렬 
 
-![image](https://user-images.githubusercontent.com/99783474/189608803-83b365b5-f5be-41d3-966f-b7cfa606a02e.png
+![image](https://user-images.githubusercontent.com/99783474/189608929-f09c4a9b-efc5-4f29-b4fb-227981c5598b.png)
 
 
 
