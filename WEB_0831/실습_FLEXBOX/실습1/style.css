@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 아래에 CSS를 작성해주세요. */
 
 * {
@@ -23,3 +24,30 @@
   width: 400px;
   border-radius: 5%;
 }
+=======
+/* 아래에 CSS를 작성해주세요. */
+
+* {
+  box-sizing: border-box;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  align-items: center;
+}
+.subtext{
+  display: block;
+  font-size: 15px; 
+}
+
+.item-list {
+  display: flex;
+}
+.item {
+  margin: 5px;
+}
+.item-img {
+  width: 400px;
+  border-radius: 5%;
+}
+>>>>>>> 6e77fadce0748bfea1eac7fc7fbfc56f86a596e1
