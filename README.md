@@ -144,7 +144,52 @@
 ![image](https://user-images.githubusercontent.com/99783474/189608929-f09c4a9b-efc5-4f29-b4fb-227981c5598b.png)
 
 
+---
+
+### [💡 HTML 문서 구조화](https://github.com/oiosu/HAPPY-WEB_MLP/blob/master/WEB_0905/WEB_0905.md)
+
+
+#### ✔ form
+
+    form 은 정보(데이터)를 서버에 제출하기 위해 사용하는 태그
+
+    form 기본 속성
+
+    (장고에서 중요)
+
+        action : form 을 처리할 서버의 URL _데이터를 보낼 곳
+
+        method : form 을 제출할 때 사용할 HTTP 메서드 (GET 혹은 POST)
+
+        enctype : method 가 post 인경우 데이터의 유형
+            application/x-www-form-urlencoded : 기본값
+            multipart/form-data : 파일 전송시 (input type이 file인 경우)
+            text/plain : HTML5 디버깅 용 (잘 사용되지 않음
+
+
+#### ✔ input 속성들
+
+
+     name : form control에 적용되는 이름 (이름/값 페어로 전송됨)
+
+     value : form control에 적용되는 값 (이름/값 페어로 전송됨)
+     
+     required, readonly, autofocus, autocomplete, disabled 등
 
 
 
+    기본값이 인라인인지 블록인지 잘 살펴보기
+
+    디테일 신경쓰기
+
+    autofocus 작은 코드로 편리함을 줄 수 있다.
+
+    위젯 타입을 바꾸면 위젯이 바뀐다.
+
+    타입에 대한 종류 살피기
+
+
+---
+
+### 🛠 WEB 공부하면서 도움이 되었던 사이트 
 
