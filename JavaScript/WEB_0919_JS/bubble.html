@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>정말 <span>중요한</span>> 내용</h1>
+    <!-- 버블링 _ 이벤트 같은 경우에도 전파가 가능한 것들이 있다 라는 것도 생각해두기 -->
+    <!-- event.target 은 event 안쪽의 것을 가리키는 정도로 생각하기 -->
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo expedita similique quibusdam. Doloribus enim aspernatur illo laborum tempore laboriosam veniam? Nesciunt, error ipsa. Et ut commodi cupiditate fugiat debitis nobis.</p>
+    <script>
+        const h1 = document.querySelector('h1')
+        h1.addEventListener('copy', function(event) {
+            // event 의 기본 동작을 막을 수 있다. 
+            event.preventDefault()
+            console.log('삐빅 복사를 할 수 없습니다.')
+            // 정말 하고 싶은건 이벤트 자체가 일어나지 않도록 하고 싶은 것 
+        h1.addEventListener('dragstart', function(event) {
+            event.preventDefault()
+            console.log('드래그가 금지되어 있습니다.')
+        })
+        })
+    </script>
+</body>
+</html>
